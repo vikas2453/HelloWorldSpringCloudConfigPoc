@@ -38,7 +38,7 @@ public class HelloWorldController {
 	@RequestMapping("/greet")
 	public String greet() {
 		System.out.println(properties.getUrl());
-		return greeting+" "+name + " from "+ instance+"\n url is "+properties.getUrl();
+		return greeting+" "+name + " from "+ instance+"\n Environment is "+properties.getUrl();
 	}
 	
 
